@@ -13,7 +13,7 @@ curl_setopt_array($curl, [
     CURLOPT_CUSTOMREQUEST => "POST",
     CURLOPT_POSTFIELDS => "grant_type=client_credentials",
     CURLOPT_HTTPHEADER => [
-      "Authorization: Basic < YOUR CLIENT ID & SECRET >",
+      "Authorization: Basic <YOUR CLIENT-ID & SECRET>",
       "content-type: application/x-www-form-urlencoded"
     ],
 ]);
